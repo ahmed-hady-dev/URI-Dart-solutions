@@ -1,0 +1,31 @@
+import 'dart:io';
+
+void main() {
+  double A , 
+  // int productOneCode, productOneUnits;
+  // double productOnePrice;
+
+  // int productTwoCode, productTwoUnits;
+  // double productTwoPrice;
+
+  // double sum;
+
+  // String listOne;
+  // listOne = (stdin.readLineSync());
+  // List<String> listOneSplit = listOne.split(' ');
+  // productOneCode = int.parse(listOneSplit[0]);
+  // productOneUnits = int.parse(listOneSplit[1]);
+  // productOnePrice = double.parse(listOneSplit[2]);
+
+  // String listTwo;
+  // listTwo = (stdin.readLineSync());
+  // List<String> listTwoSplit = listTwo.split(' ');
+  // productTwoCode = int.parse(listTwoSplit[0]);
+  // productTwoUnits = int.parse(listTwoSplit[1]);
+  // productTwoPrice = double.parse(listTwoSplit[2]);
+
+  // sum = ((productOnePrice * productOneUnits) +
+  //     (productTwoPrice * productTwoUnits));
+
+  // print('VALOR A PAGAR: R\$ ${sum.toStringAsFixed(2)}');
+}

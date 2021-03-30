@@ -1,0 +1,15 @@
+import 'dart:io';
+
+void main() {
+  String sellerName;
+  double fixedSalary, saleTotal, sum;
+
+  // amountHeReceived = double.parse(stdin.readLineSync());
+  // workedHours = int.parse(stdin.readLineSync());
+  // workedHours = int.parse(stdin.readLineSync());
+
+  // sum = workedHours * amountHeReceived;
+
+  // print('NUMBER = $employeeNumber');
+  print('TOTAL = R\$ ${sum.toStringAsFixed(2)}');
+}
