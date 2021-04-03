@@ -5,7 +5,7 @@ void main() {
 
   calculatedDistance = int.parse(stdin.readLineSync());
 
-  finalResultInMinutes = (calculatedDistance * 2);
+  finalResultInMinutes = int.parse((calculatedDistance / 2));
 
-  print('${finalResultInMinutes.toStringAsFixed(0)} minutos');
+  print('$finalResultInMinutes minutos');
 }
