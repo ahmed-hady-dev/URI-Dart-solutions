@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  int spentTime, avrageSpeed, totalDistance;
+  int carUsage, spentTime, avrageSpeed, totalDistance;
   double liters;
 
   spentTime = int.parse(stdin.readLineSync());

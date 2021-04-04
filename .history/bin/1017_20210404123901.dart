@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  int spentTime, avrageSpeed, totalDistance;
+  int carUsage, spentTime, avrageSpeed, totalDistance;
   double liters;
 
   spentTime = int.parse(stdin.readLineSync());
@@ -9,6 +9,4 @@ void main() {
 
   totalDistance = avrageSpeed * spentTime;
   liters = (totalDistance / 12);
-
-  print(liters.toStringAsFixed(3));
 }
