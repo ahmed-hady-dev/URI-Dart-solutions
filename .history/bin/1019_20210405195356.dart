@@ -5,7 +5,6 @@ void main() {
 
   input = int.parse(stdin.readLineSync());
 
-  print(input);
   print("${input ~/ 100} nota(s) de R\$ 100,00");
   input %= 100;
   print("${input ~/ 50} nota(s) de R\$ 50,00");
@@ -19,5 +18,4 @@ void main() {
   print("${input ~/ 2} nota(s) de R\$ 2,00");
   input %= 2;
   print("${input ~/ 1} nota(s) de R\$ 1,00");
-  input %= 1;
 }
