@@ -7,5 +7,5 @@ void main() {
 
   print('${ageInDays ~/ 365} ano(s)');
   print('${(ageInDays % 365) ~/ 30} mes(es)');
-  print('${(ageInDays % 365 % 30)} dia(s)');
+  print('${((ageInDays %) % 30) ~/ 30} dia(s)');
 }
