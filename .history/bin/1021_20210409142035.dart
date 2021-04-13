@@ -8,17 +8,17 @@ void main() {
   inputParsed = (double.parse(input.toStringAsFixed(2)));
 
   print('NOTAS:');
-  print("${inputParsed ~/ 100} nota(s) de R\$ 100.00");
+  print("${inputParsed ~/ 100} nota(s) de R\$ 100,00");
   inputParsed %= 100;
-  print("${inputParsed ~/ 50} nota(s) de R\$ 50.00");
+  print("${inputParsed ~/ 50} nota(s) de R\$ 50,00");
   inputParsed %= 50;
-  print("${inputParsed ~/ 20} nota(s) de R\$ 20.00");
+  print("${inputParsed ~/ 20} nota(s) de R\$ 20,00");
   inputParsed %= 20;
-  print("${inputParsed ~/ 10} nota(s) de R\$ 10.00");
+  print("${inputParsed ~/ 10} nota(s) de R\$ 10,00");
   inputParsed %= 10;
-  print("${inputParsed ~/ 5} nota(s) de R\$ 5.00");
+  print("${inputParsed ~/ 5} nota(s) de R\$ 5,00");
   inputParsed %= 5;
-  print("${inputParsed ~/ 2} nota(s) de R\$ 2.00");
+  print("${inputParsed ~/ 2} nota(s) de R\$ 2,00");
   inputParsed %= 2;
 
   print('MOEDAS:');
